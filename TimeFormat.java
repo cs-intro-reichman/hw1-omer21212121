@@ -26,7 +26,7 @@ public class TimeFormat {
 
 		} else if (hours == 0) {
 			modifiedHours = 12;
-			hoursSystem = "PM";
+			hoursSystem = "AM";
 		} else {
 			modifiedHours = hours;
 			hoursSystem = "AM";
